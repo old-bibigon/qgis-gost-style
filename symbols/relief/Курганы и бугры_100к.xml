@@ -1,0 +1,9 @@
+<symbol alpha="1" name="Курганы и бугры_100к" outputUnit="MM" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="name" v="/relief/mound_25k.svg" />
+        <prop k="offset" v="0,0" />
+        <prop k="size" v="1.4" />
+      </layer>
+    </symbol>
+    

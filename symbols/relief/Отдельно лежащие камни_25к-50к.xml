@@ -1,0 +1,9 @@
+<symbol alpha="1" name="Отдельно лежащие камни_25к-50к" outputUnit="MM" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="name" v="/relief/stone-detach_25k.svg" />
+        <prop k="offset" v="0,-0.6" />
+        <prop k="size" v="1.2" />
+      </layer>
+    </symbol>
+    
