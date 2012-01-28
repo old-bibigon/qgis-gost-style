@@ -1,0 +1,13 @@
+<symbol alpha="1" name="Границы автономных округов_25к-50к" outputUnit="MM" type="line">
+      <layer class="SimpleLine" locked="0" pass="0">
+        <prop k="capstyle" v="square" />
+        <prop k="color" v="0,0,0,255" />
+        <prop k="customdash" v="2;0.8;2;0.9;0.2;0.9" />
+        <prop k="joinstyle" v="bevel" />
+        <prop k="offset" v="0" />
+        <prop k="penstyle" v="solid" />
+        <prop k="use_custom_dash" v="1" />
+        <prop k="width" v="0.4" />
+      </layer>
+    </symbol>
+    
