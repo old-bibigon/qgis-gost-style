@@ -1,0 +1,9 @@
+<symbol alpha="1" name="Отдельные лиственные рощи, не выражающиеся в масштабе карты, имеющие значение ориентиров_25к-50к" outputUnit="MM" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="name" v="/vegetation_grounds/separate-grove-leafy_25k.svg" />
+        <prop k="offset" v="0,-1" />
+        <prop k="size" v="2.2" />
+      </layer>
+    </symbol>
+    
