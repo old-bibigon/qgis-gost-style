@@ -1,0 +1,11 @@
+<symbol alpha="1" name="Водоёмы" outputUnit="MM" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="color" v="46,218,252,255" />
+        <prop k="color_border" v="31,99,176,255" />
+        <prop k="offset" v="0,0" />
+        <prop k="style" v="solid" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.15" />
+      </layer>
+    </symbol>
+    
