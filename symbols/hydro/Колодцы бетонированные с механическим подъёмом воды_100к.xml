@@ -1,0 +1,27 @@
+<symbol alpha="1" name="Колодцы бетонированные с механическим подъёмом воды_100к" outputUnit="MM" type="marker">
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="31,99,176,255" />
+        <prop k="name" v="rectangle" />
+        <prop k="offset" v="0,0" />
+        <prop k="size" v="1.6" />
+      </layer>
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="255,255,255,255" />
+        <prop k="color_border" v="31,99,176,255" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="size" v="1" />
+      </layer>
+      <layer class="SimpleMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="color" v="31,99,176,255" />
+        <prop k="color_border" v="31,99,176,255" />
+        <prop k="name" v="circle" />
+        <prop k="offset" v="0,0" />
+        <prop k="size" v="0.3" />
+      </layer>
+    </symbol>
+    
