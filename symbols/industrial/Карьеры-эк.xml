@@ -1,0 +1,9 @@
+<symbol alpha="1" name="Карьеры-эк" outputUnit="MM" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="name" v="/industry/quarry_25k.svg" />
+        <prop k="offset" v="0,-1" />
+        <prop k="size" v="4" />
+      </layer>
+    </symbol>
+    

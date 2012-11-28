@@ -1,0 +1,9 @@
+<symbol alpha="1" name="Электрические подстанции_100к" outputUnit="MM" type="marker">
+      <layer class="SvgMarker" locked="0" pass="0">
+        <prop k="angle" v="0" />
+        <prop k="name" v="/industry/power-substation_25k.svg" />
+        <prop k="offset" v="0,-0.6" />
+        <prop k="size" v="2" />
+      </layer>
+    </symbol>
+    

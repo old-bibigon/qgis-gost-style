@@ -1,0 +1,11 @@
+<symbol alpha="1" name="Разрушенные кварталы_25-100к" outputUnit="MM" type="fill">
+      <layer class="SimpleFill" locked="0" pass="0">
+        <prop k="color" v="0,0,0,255" />
+        <prop k="color_border" v="0,0,0,255" />
+        <prop k="offset" v="0,0" />
+        <prop k="style" v="dense7" />
+        <prop k="style_border" v="solid" />
+        <prop k="width_border" v="0.15" />
+      </layer>
+    </symbol>
+    
