@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf8 -*-
 
 #разборка единого файла библиотеки стиля qgis на кучку xmlек
@@ -25,17 +25,11 @@ for (name, symb) in symbols.items():
     if name.startswith('@'): continue
     filename = '%s/symbols/%s/%s.xml' % (outdir, symb.attrib['type'], symb.attrib['name'].replace(u'ж/д',u'ж_д'))
     dirname = os.path.dirname(filename)
-    if not os.path.isdir(dirname): os.makedirs(dirname)
-    txt = etree.tostring(symb, encoding='utf8')
-    for sym_lay_name in [ n for n in symbols_names if n.startswith('@' + name + '@') ]:
-        txt += etree.tostring(symbols[sym_lay_name], encoding='utf8')
-    txt = txt.replace("<?xml version='1.0' encoding='utf8'?>\n", '')
-    open(filename, 'wt').write(txt)
+    if not os.path.isdir(dirname): 
+        os.makedirs(dirname)
 
-for symb in tree.find('colorramps').findall('colorramp'):
-    filename = '%s/colorramp/%s/%s.xml' % (outdir, symb.attrib['type'], symb.attrib['name'])
-    dirname = os.path.dirname(filename)
-    if not os.path.isdir(dirname): os.makedirs(dirname)
     txt = etree.tostring(symb, encoding='utf8')
-    txt = txt.replace("<?xml version='1.0' encoding='utf8'?>\n", '')
-    open(filename, 'wt').write(txt)
+#    for sym_lay_name in [ n for n in symbols_names if n.startswith('@' + name + '@') ]:
+#        txt += etree.tostring(symbols[sym_lay_name], encoding='utf8')
+    txt = txt.replace(b"<?xml version='1.0' encoding='utf8'?>\n", b'')
+    open(filename, 'wb').write(txt)
